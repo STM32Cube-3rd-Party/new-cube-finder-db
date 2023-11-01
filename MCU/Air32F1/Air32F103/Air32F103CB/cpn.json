@@ -1,0 +1,73 @@
+[
+    {
+        "cpn_name": "Air32F103CBT6",
+        "refname": "Air32F103CBTx",
+        "attribute":[
+            {
+                "name": "core",
+                "strValue": "cortex-M3",
+                "numValue": -1
+            },
+            {
+                "name": "flash",
+                "strValue": "128",
+                "numValue": 128
+            },
+            {
+                "name": "description",
+                "strValue": "Air32F103CBT6 description",
+                "numValue": -1
+            },
+            {
+                "name": "IONb",
+                "strValue": "37",
+                "numValue": 37
+            },
+            {
+                "name": "marketingRestriction",
+                "strValue": "Public",
+                "numValue": -1
+            },
+            {
+                "name": "marketingStatus",
+                "strValue": "Active",
+                "numValue": -1
+            },
+            {
+                "name": "freqCore1",
+                "strValue": "256",
+                "numValue": 256
+            },
+            {
+                "name": "temperatureMax",
+                "strValue": "85",
+                "numValue": 85
+            },
+            {
+                "name": "temperatureMin",
+                "strValue": "-40",
+                "numValue": -40
+            },
+            {
+                "name": "otherTimerFunctions",
+                "strValue": "Dual Watchdog;RTC;SysTick",
+                "numValue": -1
+            },
+            {
+                "name": "package",
+                "strValue": "LQFP 48 7x7x1.4 mm",
+                "numValue": -1
+            },
+            {
+                "name": "voltageMax",
+                "strValue": "3.6",
+                "numValue": 3.6
+            },
+            {
+                "name": "voltageMin",
+                "strValue": "2.0",
+                "numValue": 2.0
+            }
+        ]
+    }
+]

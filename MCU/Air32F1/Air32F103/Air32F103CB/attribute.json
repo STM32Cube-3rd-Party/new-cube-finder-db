@@ -1,0 +1,52 @@
+[
+    {
+        "name": "prmisClass",
+        "strValue": "STM32 32-bit Arm Cortex MCUs",
+        "numValue": -1
+    },
+    {
+        "name": "prmisClassId",
+        "strValue": "1734",
+        "numValue": 1734
+    },
+    {
+        "name": "family",
+        "strValue": "Microcontrollers & Microprocessors",
+        "numValue": -1
+    },
+    {
+        "name": "familyId",
+        "strValue": "141",
+        "numValue": 141
+    },
+    {
+        "name": "line",
+        "strValue": "Air32F103",
+        "numValue": -1
+    },
+    {
+        "name": "lineId",
+        "strValue": "114514",
+        "numValue": 114514
+    },
+    {
+        "name": "series",
+        "strValue": "Air32F103 Series",
+        "numValue": -1
+    },
+    {
+        "name": "seriesId",
+        "strValue": "114514",
+        "numValue": 114514
+    },
+    {
+        "name": "prmisSubclass",
+        "strValue": "STM32 Mainstream MCUs",
+        "numValue": -1
+    },
+    {
+        "name": "prmisSubclassId",
+        "strValue": "114514",
+        "numValue": 114514
+    }
+]
