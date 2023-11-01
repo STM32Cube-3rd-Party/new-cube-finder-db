@@ -1,0 +1,2063 @@
+[
+  {
+    "id": 44,
+    "name": "additionalSerialInterfaces",
+    "sourceName": "Additional Serial Interfaces",
+    "type": "multi",
+    "unit": null,
+    "description": "Additionnal Other Serial Interfaces  ",
+    "prmis_id": 5039
+  },
+  {
+    "id": 45,
+    "name": "architecture",
+    "sourceName": "Architecture",
+    "type": "string",
+    "unit": null,
+    "description": "The architecture type of the component ( 8 bit ; 12 bit ; Risc etc.....)",
+    "prmis_id": 64
+  },
+  {
+    "id": 47,
+    "name": "fdcan",
+    "sourceName": "CAN FD (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of CAN FD Interfaces",
+    "prmis_id": 5329
+  },
+  {
+    "id": 48,
+    "name": "coprocessorFreq",
+    "sourceName": "Co-Processor frequency (MHz) (max)",
+    "type": "integer",
+    "unit": "MHz",
+    "description": "Defines the frequency of the co-processor ",
+    "prmis_id": 5291
+  },
+  {
+    "id": 49,
+    "name": "coprocessorType",
+    "sourceName": "Co-Processor type",
+    "type": "multi",
+    "unit": null,
+    "description": "Defines the type of co-processor",
+    "prmis_id": 5289
+  },
+  {
+    "id": 50,
+    "name": "comp",
+    "sourceName": "Comparator",
+    "type": "integer",
+    "unit": null,
+    "description": "Indicates the integration of an analog voltage comparator",
+    "prmis_id": 4360
+  },
+  {
+    "id": 51,
+    "name": "connectivitySupported",
+    "sourceName": "Connectivity supported",
+    "type": "multi",
+    "unit": null,
+    "description": "List of connectivity ports on device",
+    "prmis_id": 2462
+  },
+  {
+    "id": 53,
+    "name": "core",
+    "sourceName": "Core",
+    "type": "multi",
+    "unit": null,
+    "description": "Central processing unit core",
+    "prmis_id": 258
+  },
+  {
+    "id": 54,
+    "name": "boardCoreProduct",
+    "sourceName": "Core Product",
+    "type": "string",
+    "unit": null,
+    "description": "Silicon Core Product on which the Board is based",
+    "prmis_id": 2001
+  },
+  {
+    "id": 55,
+    "name": "CRYP",
+    "sourceName": "Crypto-HASH",
+    "type": "multi",
+    "unit": null,
+    "description": "Cryptographic and hash functions that are supported by the device. ",
+    "prmis_id": 5133
+  },
+  {
+    "id": 56,
+    "name": "current_sense",
+    "sourceName": "Current sense",
+    "type": "boolean",
+    "unit": null,
+    "description": "Current sense",
+    "prmis_id": 4455
+  },
+  {
+    "id": 57,
+    "name": "dac12bit",
+    "sourceName": "D/A Converters (typ) (12-bit)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of D/A Converters    ",
+    "prmis_id": 5041
+  },
+  {
+    "id": 58,
+    "name": "dataEprom",
+    "sourceName": "Data E2PROM (B) (nom)",
+    "type": "integer",
+    "unit": "B",
+    "description": "Data E2PROM",
+    "prmis_id": 305
+  },
+  {
+    "id": 59,
+    "name": "digital_status",
+    "sourceName": "Digital status",
+    "type": "boolean",
+    "unit": null,
+    "description": "Digital status",
+    "prmis_id": -1
+  },
+  {
+    "id": 60,
+    "name": "displayController",
+    "sourceName": "Display controller",
+    "type": "multi",
+    "unit": null,
+    "description": "Peripheral to drive external displays such as LCD's , TFT's... ",
+    "prmis_id": 4359
+  },
+  {
+    "id": 61,
+    "name": "efficiency",
+    "sourceName": "Efficiency (%) (nom)",
+    "type": "float",
+    "unit": "%",
+    "description": "The ratio of the output power to the input power.",
+    "prmis_id": -1
+  },
+  {
+    "id": 62,
+    "name": "flash",
+    "sourceName": "Flash Size (kB) (Prog)",
+    "type": "float",
+    "unit": "kB",
+    "description": "The capacity of the on-chip Flash",
+    "prmis_id": 3144
+  },
+  {
+    "id": 63,
+    "name": "freqCore1Max",
+    "sourceName": "Frequency (MHz) (max)",
+    "type": "float",
+    "unit": "MHz",
+    "description": "The frequency (in Hz) of the device.",
+    "prmis_id": -1
+  },
+  {
+    "id": 64,
+    "name": "freqCore1Min",
+    "sourceName": "Frequency (MHz) (min)",
+    "type": "float",
+    "unit": "MHz",
+    "description": "The frequency (in Hz) of the device.",
+    "prmis_id": -1
+  },
+  {
+    "id": 65,
+    "name": "description",
+    "sourceName": "General Description",
+    "type": "textarea",
+    "unit": null,
+    "description": "A free-form description of a component.",
+    "prmis_id": 4
+  },
+  {
+    "id": 66,
+    "name": "IONb",
+    "sourceName": "I/Os (High Current)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of I/O ports (number of high current pins included in the number of I/O pins)",
+    "prmis_id": 630
+  },
+  {
+    "id": 68,
+    "name": "I2S",
+    "sourceName": "I2S (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of I2S Interfaces  ",
+    "prmis_id": 5037
+  },
+  {
+    "id": 69,
+    "name": "opamp",
+    "sourceName": "Integrated op-amps",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of integrated op-amps",
+    "prmis_id": 4449
+  },
+  {
+    "id": 71,
+    "name": "LINUART",
+    "sourceName": "LIN-UART (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of LIN-UART interfaces",
+    "prmis_id": 5235
+  },
+  {
+    "id": 72,
+    "name": "marketingRestriction",
+    "sourceName": "Marketing Restriction",
+    "type": "string",
+    "unit": null,
+    "description": "To control publishing target",
+    "prmis_id": 1195
+  },
+  {
+    "id": 73,
+    "name": "marketingStatus",
+    "sourceName": "Marketing Status",
+    "type": "string",
+    "unit": null,
+    "description": "The current status of a product:<br><strong>Active:</strong> Product is in volume production<br><strong>Evaluation:</strong> Product is under characterization. Limited Engineering samples available<br><strong>Preview:</strong> Product is in design stage<br><strong>Target:</strong> Product is in design feasibility stage.No commitment taken to produce<br><strong>Proposal:</strong> Marketing proposal for customer feedback.No commitment taken to design or produce<br><strong>NRND:</strong> Not Recommended for New Design.Product is in volume production only to support customers ongoing production.",
+    "prmis_id": 163
+  },
+  {
+    "id": 74,
+    "name": "memory_interface",
+    "sourceName": "Memory Interface (External, supported)",
+    "type": "string",
+    "unit": null,
+    "description": "The type(s) of memory that can be directly connected.",
+    "prmis_id": 4048
+  },
+  {
+    "id": 77,
+    "name": "dma_controller_channels",
+    "sourceName": "Number Of DMA Controllers (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "The number of DMA controller channels provided.",
+    "prmis_id": 888
+  },
+  {
+    "id": 80,
+    "name": "freqCore1",
+    "sourceName": "Operating Frequency (MHz)",
+    "type": "float",
+    "unit": "MHz",
+    "description": "The frequency at which the device functions correctly",
+    "prmis_id": 4256
+  },
+  {
+    "id": 81,
+    "name": "temperatureMax",
+    "sourceName": "Operating Temperature (&#176;C) (max)",
+    "type": "float",
+    "unit": "&#176;C",
+    "description": "The value as specified by level (minTypMax) of the ambient temperature (in Cel) in which this item was designed to operate.",
+    "prmis_id": 962
+  },
+  {
+    "id": 82,
+    "name": "temperatureMin",
+    "sourceName": "Operating Temperature (&#176;C) (min)",
+    "type": "float",
+    "unit": "&#176;C",
+    "description": "The value as specified by level (minTypMax) of the ambient temperature (in Cel) in which this item was designed to operate.",
+    "prmis_id": 960
+  },
+  {
+    "id": 83,
+    "name": "otherTimerFunctions",
+    "sourceName": "Other timer functions",
+    "type": "multi",
+    "unit": null,
+    "description": "Additional timer functional capabilities",
+    "prmis_id": 977
+  },
+  {
+    "id": 84,
+    "name": "output_power",
+    "sourceName": "Output Power (W) (nom)",
+    "type": "float",
+    "unit": "W",
+    "description": "Output power of the device at given load and supply voltage.This applies for each channel if the device has several outputs.",
+    "prmis_id": -1
+  },
+  {
+    "id": 85,
+    "name": "package",
+    "sourceName": "Package",
+    "type": "string",
+    "unit": null,
+    "description": "Marketing description of the package type.",
+    "prmis_id": 4363
+  },
+  {
+    "id": 86,
+    "name": "parallelInterfaces",
+    "sourceName": "Parallel Interfaces",
+    "type": "multi",
+    "unit": null,
+    "description": "Defines the Parallel Interfaces of the device",
+    "prmis_id": 5053
+  },
+  {
+    "id": 87,
+    "name": "power_gain",
+    "sourceName": "Power Gain (dB) (nom)",
+    "type": "float",
+    "unit": "dB",
+    "description": "In a circuit or device, the ratio between the input and output signals. (PG)",
+    "prmis_id": -1
+  },
+  {
+    "id": 88,
+    "name": "power_supply_included",
+    "sourceName": "Power supply included",
+    "type": "boolean",
+    "unit": null,
+    "description": "A value of 1 denotes the product includes a power supply",
+    "prmis_id": 1151
+  },
+  {
+    "id": 89,
+    "name": "power_supply_type",
+    "sourceName": "Power supply type",
+    "type": "multi",
+    "unit": null,
+    "description": "The power supply type",
+    "prmis_id": 1157
+  },
+  {
+    "id": 90,
+    "name": "power_supply_voltage",
+    "sourceName": "Power supply voltage range (V)",
+    "type": "string",
+    "unit": "V",
+    "description": "Mains supply voltage of the power supply",
+    "prmis_id": 1781
+  },
+  {
+    "id": 94,
+    "name": "smps",
+    "sourceName": "SMPS",
+    "type": "string",
+    "unit": null,
+    "description": "Defines the type of Switched-Mode Power Supply",
+    "prmis_id": 5301
+  },
+  {
+    "id": 96,
+    "name": "supplier",
+    "sourceName": "Supplier",
+    "type": "string",
+    "unit": null,
+    "description": "Product supplier(s)",
+    "prmis_id": 1445
+  },
+  {
+    "id": 97,
+    "name": "current_lowest",
+    "sourceName": "Supply Current (&#181;A) (typ) (@ Lowest Power)",
+    "type": "float",
+    "unit": "&#181;A",
+    "description": "The continuous current required by this device in its stated operating mode.",
+    "prmis_id": 4343
+  },
+  {
+    "id": 98,
+    "name": "current_run",
+    "sourceName": "Supply Current (&#181;A) (typ) (Run Mode (per MHz))",
+    "type": "float",
+    "unit": "&#181;A",
+    "description": "The continuous current required by this device in its stated operating mode.",
+    "prmis_id": 4409
+  },
+  {
+    "id": 99,
+    "name": "voltageMax",
+    "sourceName": "Supply Voltage (V) (max)",
+    "type": "float",
+    "unit": "V",
+    "description": "The value as specified by level (Min, Typ, Max) of of a dc voltage (in V) connected to the supply terminal of an integrated circuit IEC61360-AAE690 (Vcc)",
+    "prmis_id": 1455
+  },
+  {
+    "id": 100,
+    "name": "voltageMin",
+    "sourceName": "Supply Voltage (V) (min)",
+    "type": "float",
+    "unit": "V",
+    "description": "The value as specified by level (Min, Typ, Max) of of a dc voltage (in V) connected to the supply terminal of an integrated circuit IEC61360-AAE690 (Vcc)",
+    "prmis_id": 1453
+  },
+  {
+    "id": 102,
+    "name": "target_application",
+    "sourceName": "Target Application",
+    "type": "multi",
+    "unit": null,
+    "description": "Specifies the application for which the board is suited.",
+    "prmis_id": 4603
+  },
+  {
+    "id": 103,
+    "name": "timer16bit",
+    "sourceName": "Timers (typ) (16-bit)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of Timers",
+    "prmis_id": 5045
+  },
+  {
+    "id": 104,
+    "name": "timer32bit",
+    "sourceName": "Timers (typ) (32-bit)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of Timers",
+    "prmis_id": 5046
+  },
+  {
+    "id": 105,
+    "name": "timer8bit",
+    "sourceName": "Timers (typ) (8-bit)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of Timers",
+    "prmis_id": 5231
+  },
+  {
+    "id": 106,
+    "name": "tool_type",
+    "sourceName": "Tool Type",
+    "type": "multi",
+    "unit": null,
+    "description": "Types of tools within the selected subcategory",
+    "prmis_id": 1574
+  },
+  {
+    "id": 109,
+    "name": "TRNG",
+    "sourceName": "TRNG (typ)",
+    "type": "boolean",
+    "unit": null,
+    "description": "True Random Number Generator",
+    "prmis_id": 5132
+  },
+  {
+    "id": 110,
+    "name": "UART",
+    "sourceName": "UART (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of UART Interfaces",
+    "prmis_id": 5062
+  },
+  {
+    "id": 111,
+    "name": "USART",
+    "sourceName": "USART (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of USART Interfaces  ",
+    "prmis_id": 5033
+  },
+  {
+    "id": 112,
+    "name": "usbs",
+    "sourceName": "USB Type",
+    "type": "multi",
+    "unit": null,
+    "description": "Defines the USB protocol standards of the device",
+    "prmis_id": 5035
+  },
+  {
+    "id": 113,
+    "name": "prmisClass",
+    "sourceName": "Class",
+    "type": "string",
+    "unit": null,
+    "description": "Product class",
+    "prmis_id": -1
+  },
+  {
+    "id": 114,
+    "name": "prmisClassId",
+    "sourceName": "CLASS_ID",
+    "type": "integer",
+    "unit": null,
+    "description": "PRMIS class ID",
+    "prmis_id": -1
+  },
+  {
+    "id": 115,
+    "name": "family",
+    "sourceName": "Family",
+    "type": "string",
+    "unit": null,
+    "description": "Product family",
+    "prmis_id": -1
+  },
+  {
+    "id": 116,
+    "name": "familyId",
+    "sourceName": "FAMILY_ID",
+    "type": "integer",
+    "unit": null,
+    "description": "PRMIS family ID",
+    "prmis_id": -1
+  },
+  {
+    "id": 117,
+    "name": "line",
+    "sourceName": "Line",
+    "type": "string",
+    "unit": null,
+    "description": "Product line",
+    "prmis_id": -1
+  },
+  {
+    "id": 118,
+    "name": "lineId",
+    "sourceName": "LINE_ID",
+    "type": "integer",
+    "unit": null,
+    "description": "PRMIS line ID",
+    "prmis_id": -1
+  },
+  {
+    "id": 119,
+    "name": "series",
+    "sourceName": "Series",
+    "type": "string",
+    "unit": null,
+    "description": "Product series",
+    "prmis_id": -1
+  },
+  {
+    "id": 120,
+    "name": "seriesId",
+    "sourceName": "SERIES_ID",
+    "type": "integer",
+    "unit": null,
+    "description": "PRMIS series ID",
+    "prmis_id": -1
+  },
+  {
+    "id": 121,
+    "name": "prmisSubclass",
+    "sourceName": "Subclass",
+    "type": "string",
+    "unit": null,
+    "description": "Product sub-class",
+    "prmis_id": -1
+  },
+  {
+    "id": 122,
+    "name": "prmisSubclassId",
+    "sourceName": "SUBCLASS_ID",
+    "type": "integer",
+    "unit": null,
+    "description": "PRMIS subclass ID",
+    "prmis_id": -1
+  },
+  {
+    "id": 124,
+    "name": "countryOfOrigin",
+    "sourceName": "Country of Origin",
+    "type": "string",
+    "unit": null,
+    "description": "CPN Country of Origin",
+    "prmis_id": 5080
+  },
+  {
+    "id": 125,
+    "name": "public_price",
+    "sourceName": "Budgetary Price",
+    "type": "float",
+    "unit": "USD",
+    "description": "Budgetary Price",
+    "prmis_id": -1
+  },
+  {
+    "id": 126,
+    "name": "eccnUs",
+    "sourceName": "ECCN (US)",
+    "type": "string",
+    "unit": null,
+    "description": "CPN Export Control Classification Number (US)",
+    "prmis_id": 5065
+  },
+  {
+    "id": 127,
+    "name": "grade",
+    "sourceName": "Grade",
+    "type": "string",
+    "unit": null,
+    "description": "CPN Grade (the grade is a categorization of the product based on its characteristics)",
+    "prmis_id": 5089
+  },
+  {
+    "id": 128,
+    "name": "introductionDate",
+    "sourceName": "Introduction Date",
+    "type": "date",
+    "unit": null,
+    "description": "CPN Introduction Date",
+    "prmis_id": 5096
+  },
+  {
+    "id": 129,
+    "name": "manufacturerDuns",
+    "sourceName": "Manufacturer DUNS",
+    "type": "string",
+    "unit": null,
+    "description": "CPN Manufacturer DUNS number (Data Universal Numbering System)",
+    "prmis_id": -1
+  },
+  {
+    "id": 130,
+    "name": "manufacturer",
+    "sourceName": "Manufacturer Name",
+    "type": "string",
+    "unit": null,
+    "description": "CPN Manufacturer Name",
+    "prmis_id": 819
+  },
+  {
+    "id": 131,
+    "name": "maturityCode",
+    "sourceName": "Maturity Code",
+    "type": "string",
+    "unit": null,
+    "description": "CPN Maturity Code",
+    "prmis_id": -1
+  },
+  {
+    "id": 132,
+    "name": "mounting",
+    "sourceName": "Mounting",
+    "type": "string",
+    "unit": null,
+    "description": "CPN Mounting",
+    "prmis_id": 861
+  },
+  {
+    "id": 133,
+    "name": "newProductIntroduction",
+    "sourceName": "New Product Introduction",
+    "type": "boolean",
+    "unit": null,
+    "description": "CPN is New Product Introduction?",
+    "prmis_id": -1
+  },
+  {
+    "id": 134,
+    "name": "packing_type",
+    "sourceName": "Packing Type",
+    "type": "string",
+    "unit": null,
+    "description": "CPN Packing Type (Tray, Tape And Reel...)",
+    "prmis_id": 1069
+  },
+  {
+    "id": 135,
+    "name": "application",
+    "sourceName": "Application",
+    "type": "multi",
+    "unit": null,
+    "description": "Defines the application segment to which the embedded software applies",
+    "prmis_id": 5299
+  },
+  {
+    "id": 136,
+    "name": "deliverable",
+    "sourceName": "Deliverable",
+    "type": "multi",
+    "unit": null,
+    "description": "The way the software is delivered",
+    "prmis_id": 5252
+  },
+  {
+    "id": 137,
+    "name": "function",
+    "sourceName": "Software Function",
+    "type": "multi",
+    "unit": null,
+    "description": "Define the software function",
+    "prmis_id": 5283
+  },
+  {
+    "id": 138,
+    "name": "license_type",
+    "sourceName": "License type",
+    "type": "string",
+    "unit": null,
+    "description": "The type of license the software is available with",
+    "prmis_id": 5255
+  },
+  {
+    "id": 139,
+    "name": "mcu_peripherals",
+    "sourceName": "MCU peripherals",
+    "type": "multi",
+    "unit": null,
+    "description": "Define the MCU peripherals to which the embedded software applies",
+    "prmis_id": 5285
+  },
+  {
+    "id": 140,
+    "name": "middleware_type",
+    "sourceName": "Middleware",
+    "type": "multi",
+    "unit": null,
+    "description": "Define the type of middleware",
+    "prmis_id": 5284
+  },
+  {
+    "id": 141,
+    "name": "sw_architecture",
+    "sourceName": "Software architecture",
+    "type": "string",
+    "unit": null,
+    "description": "Defines the software architecture  ",
+    "prmis_id": -1
+  },
+  {
+    "id": 142,
+    "name": "sw_type",
+    "sourceName": "Software Type",
+    "type": "string",
+    "unit": null,
+    "description": "Development Tools/Operating Systems Firmware",
+    "prmis_id": 1371
+  },
+  {
+    "id": 143,
+    "name": "sw_version",
+    "sourceName": "Software Version",
+    "type": "string",
+    "unit": null,
+    "description": "Software Version",
+    "prmis_id": 4933
+  },
+  {
+    "id": 144,
+    "name": "star_rating",
+    "sourceName": "Star rating (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "5 star rating (0 to 10 ? 5 stars)",
+    "prmis_id": 5287
+  },
+  {
+    "id": 145,
+    "name": "third_party_link",
+    "sourceName": "Third Party link",
+    "type": "string",
+    "unit": null,
+    "description": "Link to 3rd party site to download appropriate software",
+    "prmis_id": 4934
+  },
+  {
+    "id": 150,
+    "name": "camera",
+    "sourceName": "Camera",
+    "type": "boolean",
+    "unit": null,
+    "description": "Indicates the presence of a camera",
+    "prmis_id": 5405
+  },
+  {
+    "id": 160,
+    "name": "joystick",
+    "sourceName": "Joystick",
+    "type": "boolean",
+    "unit": null,
+    "description": "Presence of a joystick on the board",
+    "prmis_id": 5409
+  },
+  {
+    "id": 172,
+    "name": "potentiometer",
+    "sourceName": "Potentiometer",
+    "type": "boolean",
+    "unit": null,
+    "description": "Presence of a potentiometer on the board",
+    "prmis_id": 5413
+  },
+  {
+    "id": 181,
+    "name": "speaker",
+    "sourceName": "Speaker",
+    "type": "boolean",
+    "unit": null,
+    "description": "Presence of a speaker",
+    "prmis_id": 5402
+  },
+  {
+    "id": 205,
+    "name": "dualbankflash",
+    "sourceName": "Dual-bank Flash",
+    "type": "boolean",
+    "unit": null,
+    "description": "Defines if the device has a  dual bank Flash memory  ",
+    "prmis_id": 5051
+  },
+  {
+    "id": 206,
+    "name": "adc10bit",
+    "sourceName": "Number of A/D Converters (typ) (10-bit Channels)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of A/D Converters    ",
+    "prmis_id": 5513
+  },
+  {
+    "id": 207,
+    "name": "adc12bit_stm8",
+    "sourceName": "Number of A/D Converters (typ) (12-bit Channels)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of A/D Converters    ",
+    "prmis_id": 5127
+  },
+  {
+    "id": 210,
+    "name": "MxCompatible",
+    "sourceName": "STM32CubeMX Compatible",
+    "type": "boolean",
+    "unit": null,
+    "description": "Compatibility of the X-CUBE package with STM32CubeMX",
+    "prmis_id": 5358
+  },
+  {
+    "id": 211,
+    "name": "3D_gpu",
+    "sourceName": "3D GPU (typ)",
+    "type": "multi",
+    "unit": null,
+    "description": "Type of 3D GPU",
+    "prmis_id": 5354
+  },
+  {
+    "id": 213,
+    "name": "dram_support",
+    "sourceName": "DRAM support (typ)",
+    "type": "string",
+    "unit": null,
+    "description": "Type of external Dynamic RAM  supported",
+    "prmis_id": 5347
+  },
+  {
+    "id": 214,
+    "name": "ethernet",
+    "sourceName": "Ethernet",
+    "type": "multi",
+    "unit": null,
+    "description": "Speed of the Ethernet interface implemented as in IEEE1588 specs.",
+    "prmis_id": 5407
+  },
+  {
+    "id": 215,
+    "name": "ethernet_port",
+    "sourceName": "Ethernet ports (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of Ethernet ports",
+    "prmis_id": 5349
+  },
+  {
+    "id": 216,
+    "name": "flash_support",
+    "sourceName": "Flash Support (typ)",
+    "type": "multi",
+    "unit": null,
+    "description": "Type of Flash supported interface",
+    "prmis_id": 5346
+  },
+  {
+    "id": 217,
+    "name": "temperatureMax_junction",
+    "sourceName": "Junction Temperature (&#176;C) (max)",
+    "type": "float",
+    "unit": "&#176;C",
+    "description": "Junction temperature (Tj)",
+    "prmis_id": 735
+  },
+  {
+    "id": 218,
+    "name": "temperatureMin_junction",
+    "sourceName": "Junction Temperature (&#176;C) (min)",
+    "type": "float",
+    "unit": "&#176;C",
+    "description": "Junction temperature (Tj)",
+    "prmis_id": 4499
+  },
+  {
+    "id": 219,
+    "name": "L1_cache",
+    "sourceName": "L1 Cache (kB) (typ)",
+    "type": "string",
+    "unit": "kB",
+    "description": "Size of the L1 cache memory for Data and Instructions parts",
+    "prmis_id": 5353
+  },
+  {
+    "id": 220,
+    "name": "L2_cache",
+    "sourceName": "L2 Cache (kB) (typ)",
+    "type": "integer",
+    "unit": "kB",
+    "description": "Size of the L2 cache memory",
+    "prmis_id": 5369
+  },
+  {
+    "id": 221,
+    "name": "nbCores",
+    "sourceName": "Number of Cores (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of main cores",
+    "prmis_id": 5312
+  },
+  {
+    "id": 222,
+    "name": "onchip_SRAM",
+    "sourceName": "On-chip SRAM (kB) (typ)",
+    "type": "integer",
+    "unit": "kB",
+    "description": "On-chip SRAM",
+    "prmis_id": 924
+  },
+  {
+    "id": 223,
+    "name": "freqCore1_typ",
+    "sourceName": "Operating Frequency (MHz) (typ)",
+    "type": "float",
+    "unit": "MHz",
+    "description": "The frequency at which the device functions correctly",
+    "prmis_id": -1
+  },
+  {
+    "id": 224,
+    "name": "productType",
+    "sourceName": "Product type",
+    "type": "string",
+    "unit": null,
+    "description": "Product type - Partner or Solution",
+    "prmis_id": -1
+  },
+  {
+    "id": 225,
+    "name": "hasSecureBoot",
+    "sourceName": "Secure Boot (spec)",
+    "type": "boolean",
+    "unit": null,
+    "description": "Presence of Secure Boot",
+    "prmis_id": 5352
+  },
+  {
+    "id": 226,
+    "name": "stm32type",
+    "sourceName": "STM32 type",
+    "type": "multi",
+    "unit": null,
+    "description": "Used to classify the different types of silicon  STM32 devices",
+    "prmis_id": 5362
+  },
+  {
+    "id": 227,
+    "name": "unit_price",
+    "sourceName": "Unit Price (US$)",
+    "type": "float",
+    "unit": null,
+    "description": "Budgetary Price",
+    "prmis_id": -1
+  },
+  {
+    "id": 228,
+    "name": "nb_usb2_itf",
+    "sourceName": "USB 2.0 (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of USB 2.0 interfaces",
+    "prmis_id": 5350
+  },
+  {
+    "id": 231,
+    "name": "adc16bit",
+    "sourceName": "A/D Converters 16-bit: Number of Channels (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of channels in the device",
+    "prmis_id": 5280
+  },
+  {
+    "id": 232,
+    "name": "adc16bit_number",
+    "sourceName": "A/D Converters 16-bit: Number of A/D Converters (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of A/D Converters    ",
+    "prmis_id": 5309
+  },
+  {
+    "id": 233,
+    "name": "cpnd_cantotal",
+    "sourceName": "CAN Total",
+    "type": "integer",
+    "unit": null,
+    "description": "Total number of CAN instances (CAN + CAN 2.0 + CAN FD)",
+    "prmis_id": -1
+  },
+  {
+    "id": 234,
+    "name": "cpnd_gptimerstotal",
+    "sourceName": "GP timers Total",
+    "type": "integer",
+    "unit": null,
+    "description": "Total number of timer instances (16bit + 32bit)",
+    "prmis_id": -1
+  },
+  {
+    "id": 236,
+    "name": "cpnd_adctotal",
+    "sourceName": "A/D Converters: Total Number of A/D Converters",
+    "type": "integer",
+    "unit": null,
+    "description": "Total number of ADC converter instances (12bit + 14bit +16bit)",
+    "prmis_id": -1
+  },
+  {
+    "id": 237,
+    "name": "cpnd_uarttotal",
+    "sourceName": "UART Total",
+    "type": "integer",
+    "unit": null,
+    "description": "Total number of UART instances (UART + USART + LPUART)",
+    "prmis_id": -1
+  },
+  {
+    "id": 249,
+    "name": "audio_line_in",
+    "sourceName": "Audio Line Inputs (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of Audio Line Inputs",
+    "prmis_id": 5394
+  },
+  {
+    "id": 250,
+    "name": "audio_line_out",
+    "sourceName": "Audio Line Outputs (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of Audio Line Outputs",
+    "prmis_id": 5395
+  },
+  {
+    "id": 451,
+    "name": "package_dimensions",
+    "sourceName": "Package Dimensions",
+    "type": "string",
+    "unit": null,
+    "description": "package dimensions",
+    "prmis_id": -1
+  },
+  {
+    "id": 452,
+    "name": "package_pin_count",
+    "sourceName": "Package Pin Count",
+    "type": "integer",
+    "unit": null,
+    "description": "package pin count",
+    "prmis_id": -1
+  },
+  {
+    "id": 453,
+    "name": "package_type",
+    "sourceName": "Package Type",
+    "type": "string",
+    "unit": null,
+    "description": "package type",
+    "prmis_id": -1
+  },
+  {
+    "id": 454,
+    "name": "cpnd_dmatotal",
+    "sourceName": "DMA Total",
+    "type": "integer",
+    "unit": null,
+    "description": "DMA + BDMA + MDMA",
+    "prmis_id": -1
+  },
+  {
+    "id": 455,
+    "name": "cpnd_i2ctotal",
+    "sourceName": "I2C Total",
+    "type": "integer",
+    "unit": null,
+    "description": "Total number of I2C instances (I2C + FMPI2C+I3C)",
+    "prmis_id": -1
+  },
+  {
+    "id": 456,
+    "name": "cpnd_ramtotal",
+    "sourceName": "RAM Total",
+    "type": "integer",
+    "unit": "kB",
+    "description": "Total RAM available (RAM + CCM_RAM)",
+    "prmis_id": -1
+  },
+  {
+    "id": 457,
+    "name": "cpnd_quadspitotal",
+    "sourceName": "QUADSPI Total",
+    "type": "integer",
+    "unit": null,
+    "description": "Total number of Quad SPI instances (QUADSPI + OCTOSPI)",
+    "prmis_id": -1
+  },
+  {
+    "id": 458,
+    "name": "cpnd_timertotal",
+    "sourceName": "Timer Total",
+    "type": "integer",
+    "unit": null,
+    "description": "GP timers Total + LPTIM",
+    "prmis_id": -1
+  },
+  {
+    "id": 459,
+    "name": "hasAudioProcessor",
+    "sourceName": "Audio Processor Embedded",
+    "type": "boolean",
+    "unit": null,
+    "description": "Indicates the presence of a complete audio processor",
+    "prmis_id": 73
+  },
+  {
+    "id": 460,
+    "name": "can_board",
+    "sourceName": "CAN (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of CAN Interfaces  ",
+    "prmis_id": 5107
+  },
+  {
+    "id": 461,
+    "name": "connectorTypes",
+    "sourceName": "Connector type",
+    "type": "multi",
+    "unit": null,
+    "description": "Type of connectors",
+    "prmis_id": 5397
+  },
+  {
+    "id": 462,
+    "name": "debugConnectors",
+    "sourceName": "Debug connectors",
+    "type": "multi",
+    "unit": null,
+    "description": "Type of debug connectors",
+    "prmis_id": 5393
+  },
+  {
+    "id": 463,
+    "name": "displayTypes",
+    "sourceName": "Display type",
+    "type": "multi",
+    "unit": null,
+    "description": "Types of displays available on the board",
+    "prmis_id": 5406
+  },
+  {
+    "id": 464,
+    "name": "embeddedSensors",
+    "sourceName": "Embedded Sensors",
+    "type": "multi",
+    "unit": null,
+    "description": "Embedded sensor kind",
+    "prmis_id": 5357
+  },
+  {
+    "id": 466,
+    "name": "extE2promKB",
+    "sourceName": "External EEPROM Size  (kByte) (nom)",
+    "type": "float",
+    "unit": "kByte",
+    "description": "The size of the external EEPROM memory",
+    "prmis_id": 5415
+  },
+  {
+    "id": 469,
+    "name": "memoryCard",
+    "sourceName": "Memory Card",
+    "type": "boolean",
+    "unit": null,
+    "description": "Presence of a memory card",
+    "prmis_id": 5410
+  },
+  {
+    "id": 470,
+    "name": "microphones",
+    "sourceName": "Microphones (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of microphones that can be attached",
+    "prmis_id": 5396
+  },
+  {
+    "id": 471,
+    "name": "nbLeds",
+    "sourceName": "Number of LEDs (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of LEDs that can be driven by the device",
+    "prmis_id": 5414
+  },
+  {
+    "id": 472,
+    "name": "otherOnBoardFeatures",
+    "sourceName": "Other on-board features",
+    "type": "multi",
+    "unit": null,
+    "description": "Other on-board features",
+    "prmis_id": 5403
+  },
+  {
+    "id": 474,
+    "name": "rs232",
+    "sourceName": "RS-232 (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of RS-232 Ports",
+    "prmis_id": 5400
+  },
+  {
+    "id": 475,
+    "name": "rs485",
+    "sourceName": "RS-485 (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of RS-485 ports",
+    "prmis_id": 5401
+  },
+  {
+    "id": 476,
+    "name": "stLinks",
+    "sourceName": "ST-LINK",
+    "type": "multi",
+    "unit": null,
+    "description": "ST-LINK version and type of ST-LINK USB connector",
+    "prmis_id": 5392
+  },
+  {
+    "id": 477,
+    "name": "touchFeatures",
+    "sourceName": "Touch Features",
+    "type": "multi",
+    "unit": null,
+    "description": "Type of touch features",
+    "prmis_id": 5391
+  },
+  {
+    "id": 478,
+    "name": "usbPortTypes",
+    "sourceName": "USB Port type",
+    "type": "multi",
+    "unit": null,
+    "description": "Type of user USB ports",
+    "prmis_id": 5390
+  },
+  {
+    "id": 479,
+    "name": "userButtons",
+    "sourceName": "User buttons (nom)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of user buttons",
+    "prmis_id": 5412
+  },
+  {
+    "id": 480,
+    "name": "wirelessInterfaces",
+    "sourceName": "Wireless Interface",
+    "type": "multi",
+    "unit": null,
+    "description": "The interfaces with the external world",
+    "prmis_id": 1701
+  },
+  {
+    "id": 481,
+    "name": "adc12bit_number",
+    "sourceName": "A/D Converters 12-bit: Number of A/D Converters (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of A/D Converters    ",
+    "prmis_id": 5308
+  },
+  {
+    "id": 482,
+    "name": "adc12bit",
+    "sourceName": "A/D Converters 12-bit: Number of Channels (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of channels in the device",
+    "prmis_id": 5279
+  },
+  {
+    "id": 483,
+    "name": "madeForSTM32",
+    "sourceName": "MadeForSTM32",
+    "type": "string",
+    "unit": null,
+    "description": "Is compliant with MadeForSTM32 label",
+    "prmis_id": 5286
+  },
+  {
+    "id": 494,
+    "name": "board_mcumpu",
+    "sourceName": "MCU/MPU Name",
+    "type": "string",
+    "unit": null,
+    "description": "MCUS/MPUs the example is applicable for",
+    "prmis_id": -1
+  },
+  {
+    "id": 495,
+    "name": "board_name",
+    "sourceName": "Board Name",
+    "type": "string",
+    "unit": null,
+    "description": "Name of the Board the example runs on",
+    "prmis_id": -1
+  },
+  {
+    "id": 496,
+    "name": "board_peripherals",
+    "sourceName": "Board Peripherals",
+    "type": "multi",
+    "unit": null,
+    "description": "Peripherals provided by the board and used by the example",
+    "prmis_id": -1
+  },
+  {
+    "id": 497,
+    "name": "board_type",
+    "sourceName": "Board Type",
+    "type": "string",
+    "unit": null,
+    "description": "Board type the example runs on: Discovery Kit, Evaluation Board, Nucleo XXX",
+    "prmis_id": -1
+  },
+  {
+    "id": 499,
+    "name": "can",
+    "sourceName": "CAN",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of CAN Interfaces  ",
+    "prmis_id": 5038
+  },
+  {
+    "id": 516,
+    "name": "cubemx_version",
+    "sourceName": "CubeMX Version",
+    "type": "string",
+    "unit": null,
+    "description": "minimal version of CubeMX the example complies with",
+    "prmis_id": -1
+  },
+  {
+    "id": 528,
+    "name": "example_folder",
+    "sourceName": "Example Folder",
+    "type": "string",
+    "unit": null,
+    "description": "Relative path from pack root",
+    "prmis_id": -1
+  },
+  {
+    "id": 530,
+    "name": "example_middlewares",
+    "sourceName": "Middleware Name",
+    "type": "multi",
+    "unit": null,
+    "description": "Middlewares used by the example (e.g. FatFS, FreeRTOS)",
+    "prmis_id": -1
+  },
+  {
+    "id": 531,
+    "name": "example_name",
+    "sourceName": "Example Name",
+    "type": "string",
+    "unit": null,
+    "description": "Short name of the example",
+    "prmis_id": -1
+  },
+  {
+    "id": 533,
+    "name": "example_version",
+    "sourceName": "Example Version",
+    "type": "string",
+    "unit": null,
+    "description": "version of the example",
+    "prmis_id": -1
+  },
+  {
+    "id": 538,
+    "name": "free_text_search",
+    "sourceName": "Free Text Search",
+    "type": "string",
+    "unit": null,
+    "description": "Search applicable on \"Example Name\" and \"Keywords\"",
+    "prmis_id": -1
+  },
+  {
+    "id": 540,
+    "name": "fw_pack_name",
+    "sourceName": "Firmware Package",
+    "type": "string",
+    "unit": null,
+    "description": "Pack the example is related to",
+    "prmis_id": -1
+  },
+  {
+    "id": 541,
+    "name": "fw_pack_version",
+    "sourceName": "Firmware Package Version",
+    "type": "string",
+    "unit": null,
+    "description": "Version of the pack the example belongs to",
+    "prmis_id": -1
+  },
+  {
+    "id": 546,
+    "name": "I2C",
+    "sourceName": "I2C (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of I2C Interfaces",
+    "prmis_id": 5031
+  },
+  {
+    "id": 554,
+    "name": "keywords",
+    "sourceName": "Keywords",
+    "type": "multi",
+    "unit": null,
+    "description": "keywords used to filter the example",
+    "prmis_id": -1
+  },
+  {
+    "id": 558,
+    "name": "library_type",
+    "sourceName": "Library Type",
+    "type": "string",
+    "unit": null,
+    "description": "type of the library : LL, HAL, mix",
+    "prmis_id": -1
+  },
+  {
+    "id": 569,
+    "name": "mcumpu_peripherals",
+    "sourceName": "MCU/MPU Peripheral",
+    "type": "multi",
+    "unit": null,
+    "description": "Peripherals provided by the MCU/MPU and used by the example",
+    "prmis_id": -1
+  },
+  {
+    "id": 592,
+    "name": "project_type",
+    "sourceName": "Project Type",
+    "type": "string",
+    "unit": null,
+    "description": "Project type: Example, Demonstration, Application",
+    "prmis_id": -1
+  },
+  {
+    "id": 596,
+    "name": "ram",
+    "sourceName": "RAM Size (kB)",
+    "type": "float",
+    "unit": "kB",
+    "description": "The capacity of the RAM.",
+    "prmis_id": 1901
+  },
+  {
+    "id": 602,
+    "name": "SPI",
+    "sourceName": "SPI (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of SPI Interfaces  ",
+    "prmis_id": 5032
+  },
+  {
+    "id": 616,
+    "name": "toolchains",
+    "sourceName": "Toolchain/IDE",
+    "type": "multi",
+    "unit": null,
+    "description": "list of supported  IDE e.g. {EWARM, MDK-ARM, SW4STM32, TrueStudio, STM32CubeIDE}",
+    "prmis_id": -1
+  },
+  {
+    "id": 618,
+    "name": "TOUCHSENSING",
+    "sourceName": "Touch sensing FW library",
+    "type": "boolean",
+    "unit": null,
+    "description": "Defines the products which support the touch sensing FW library.     ",
+    "prmis_id": 4361
+  },
+  {
+    "id": 627,
+    "name": "vendor",
+    "sourceName": "Vendor",
+    "type": "string",
+    "unit": null,
+    "description": "Vendor the example is made by (e.g. \"ST\")",
+    "prmis_id": -1
+  },
+  {
+    "id": 628,
+    "name": "board_vendor",
+    "sourceName": "Board Vendor",
+    "type": "string",
+    "unit": null,
+    "description": "Board Vendor (e.g. \"ST\")",
+    "prmis_id": -1
+  },
+  {
+    "id": 631,
+    "name": "fw_pack_vendor",
+    "sourceName": "Pack Vendor",
+    "type": "string",
+    "unit": null,
+    "description": "Pack vendor (e.g. \"ST\", \"Microsoft\")",
+    "prmis_id": -1
+  },
+  {
+    "id": 744,
+    "name": "example_line",
+    "sourceName": "Example Line",
+    "type": "string",
+    "unit": null,
+    "description": "Line the MCU/MPU on the board belongs to",
+    "prmis_id": -1
+  },
+  {
+    "id": 745,
+    "name": "example_series",
+    "sourceName": "Example Series",
+    "type": "string",
+    "unit": null,
+    "description": "Series the example is applicable for",
+    "prmis_id": -1
+  },
+  {
+    "id": 746,
+    "name": "ccm_ram",
+    "sourceName": "CCM RAM (I/D) (kByte) (typ)",
+    "type": "integer",
+    "unit": "kByte",
+    "description": "The size of the Core Coupled Random Access Memory for Instructions and data (CCM RAM)",
+    "prmis_id": 5430
+  },
+  {
+    "id": 747,
+    "name": "certification",
+    "sourceName": "Certification",
+    "type": "multi",
+    "unit": null,
+    "description": "Defines the level of compliance of the chip to international or specific standards ",
+    "prmis_id": 5166
+  },
+  {
+    "id": 748,
+    "name": "commInterfaces",
+    "sourceName": "Communication interfaces",
+    "type": "multi",
+    "unit": null,
+    "description": "Defines the Interfaces of the chip. ",
+    "prmis_id": 5171
+  },
+  {
+    "id": 749,
+    "name": "itcm_dtcm_ram",
+    "sourceName": "ITCM/DTCM RAM (kB)",
+    "type": "string",
+    "unit": "kB",
+    "description": "The size of the Tightly Coupled RAM for Instructions (ICTM) and Data (DTCM)",
+    "prmis_id": 5428
+  },
+  {
+    "id": 750,
+    "name": "adc14bit_number",
+    "sourceName": "A/D Converters 14-bit: Number of A/D Converters (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of A/D Converters    ",
+    "prmis_id": 5421
+  },
+  {
+    "id": 751,
+    "name": "adc14bit",
+    "sourceName": "A/D Converters 14-bit: Number of Channels (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of channels in the device",
+    "prmis_id": 5422
+  },
+  {
+    "id": 752,
+    "name": "outputPower",
+    "sourceName": "Output Power (dBm) (typ) (Step)",
+    "type": "float",
+    "unit": null,
+    "description": "The output power as specified by level (Min, Typ, Max) of the device. (PoutdBm)",
+    "prmis_id": 5432
+  },
+  {
+    "id": 753,
+    "name": "softwareKernel",
+    "sourceName": "Software Kernel",
+    "type": "string",
+    "unit": null,
+    "description": "Description of available Software Kernel",
+    "prmis_id": 1370
+  },
+  {
+    "id": 754,
+    "name": "tx_current",
+    "sourceName": "TX current (mA) (max) (@ 0dBm)",
+    "type": "float",
+    "unit": "mA",
+    "description": "RF transmitter current consumption",
+    "prmis_id": 5431
+  },
+  {
+    "id": 755,
+    "name": "PDSC_generation_date",
+    "sourceName": "PDSC generation date",
+    "type": "string",
+    "unit": null,
+    "description": "date the source PDSC file was generated on",
+    "prmis_id": -1
+  },
+  {
+    "id": 756,
+    "name": "PDSCManager_version",
+    "sourceName": "PDSCManager version",
+    "type": "string",
+    "unit": null,
+    "description": "version of the tool used to generate the source PDSC file",
+    "prmis_id": -1
+  },
+  {
+    "id": 757,
+    "name": "outputPowerMax",
+    "sourceName": "Output Power (dBm) (max)",
+    "type": "float",
+    "unit": "dBm",
+    "description": "Output power of the device at given load and supply voltage.This applies for each channel if the device has several outputs.",
+    "prmis_id": 1022
+  },
+  {
+    "id": 758,
+    "name": "outputPowerMin",
+    "sourceName": "Output Power (dBm) (min)",
+    "type": "float",
+    "unit": "dBm",
+    "description": "Output power of the device at given load and supply voltage.This applies for each channel if the device has several outputs.",
+    "prmis_id": 1021
+  },
+  {
+    "id": 759,
+    "name": "rx_current",
+    "sourceName": "RX current (mA) (typ)",
+    "type": "float",
+    "unit": "mA",
+    "description": "RF receiver current consumption",
+    "prmis_id": 1308
+  },
+  {
+    "id": 760,
+    "name": "rx_sensitivity",
+    "sourceName": "RX sensitivity (dBm) (typ)",
+    "type": "float",
+    "unit": "dBm",
+    "description": "RF receiver sensitivity",
+    "prmis_id": 4992
+  },
+  {
+    "id": 761,
+    "name": "current_standby",
+    "sourceName": "Standby Current (&#181;A) (typ)",
+    "type": "float",
+    "unit": "&#181;A",
+    "description": "The current consumed when the device is in stand-by mode",
+    "prmis_id": 4453
+  },
+  {
+    "id": 763,
+    "name": "longevity_date",
+    "sourceName": "Longevity Starting Date",
+    "type": "date",
+    "unit": null,
+    "description": "Longevity Starting Date",
+    "prmis_id": 5366
+  },
+  {
+    "id": 764,
+    "name": "additionalInterfaces",
+    "sourceName": "Additional Interfaces",
+    "type": "multi",
+    "unit": null,
+    "description": "The micro additional interfaces available",
+    "prmis_id": 5439
+  },
+  {
+    "id": 765,
+    "name": "extMemInterfaces",
+    "sourceName": "External Memory Interfaces",
+    "type": "multi",
+    "unit": null,
+    "description": "The provided interface towards an external memory",
+    "prmis_id": 5440
+  },
+  {
+    "id": 766,
+    "name": "longevity",
+    "sourceName": "Longevity Commitment (yr) (typ)",
+    "type": "string",
+    "unit": "yr",
+    "description": "Longevity Commitment in years",
+    "prmis_id": 5363
+  },
+  {
+    "id": 767,
+    "name": "pack_type",
+    "sourceName": "Pack Type",
+    "type": "string",
+    "unit": null,
+    "description": "Pack type the example is related to",
+    "prmis_id": -1
+  },
+  {
+    "id": 768,
+    "name": "enhancedForSTM32Toolset",
+    "sourceName": "Enhanced for STM32 Toolset",
+    "type": "boolean",
+    "unit": null,
+    "description": "Compatibility of the X-CUBE or I-CUBE packages with STM32CubeMX/STM32CubeIDE tools",
+    "prmis_id": 5358
+  },
+  {
+    "id": 770,
+    "name": "can2_0",
+    "sourceName": "CAN (2.0)",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of CAN Interfaces  ",
+    "prmis_id": 5468
+  },
+  {
+    "id": 771,
+    "name": "extFlashMB",
+    "sourceName": "External Flash Size (Mbit) (nom)",
+    "type": "float",
+    "unit": "Mbit",
+    "description": "The size of the external flash memory",
+    "prmis_id": 5408
+  },
+  {
+    "id": 772,
+    "name": "extRamMB",
+    "sourceName": "External RAM Size (Mbit) (nom)",
+    "type": "float",
+    "unit": "Mbit",
+    "description": "The size of the external RAM memory",
+    "prmis_id": 5399
+  },
+  {
+    "id": 773,
+    "name": "supported_devices",
+    "sourceName": "Supported Devices",
+    "type": "multi",
+    "unit": null,
+    "description": "Supported Devices cores and or lines",
+    "prmis_id": 4294
+  },
+  {
+    "id": 774,
+    "name": "additional_hardware_required",
+    "sourceName": "Additional Hardware Required",
+    "type": "string",
+    "unit": null,
+    "description": "json format List of Additional Hardware Required for the example",
+    "prmis_id": -1
+  },
+  {
+    "id": 776,
+    "name": "DFSDM_SDTDB",
+    "sourceName": "DFSDM",
+    "type": "integer",
+    "unit": null,
+    "description": "Number of Digital Filter for Sigma-Delta Modulator",
+    "prmis_id": -1
+  },
+  {
+    "id": 777,
+    "name": "IPCC_SDTDB",
+    "sourceName": "IPCC",
+    "type": "boolean",
+    "unit": null,
+    "description": "Inter-Processor Communication Controller",
+    "prmis_id": -1
+  },
+  {
+    "id": 778,
+    "name": "LPTIM_SDTDB",
+    "sourceName": "LPTIM",
+    "type": "integer",
+    "unit": null,
+    "description": "Low Power Timer",
+    "prmis_id": -1
+  },
+  {
+    "id": 779,
+    "name": "LPUART_SDTDB",
+    "sourceName": "LPUART",
+    "type": "integer",
+    "unit": null,
+    "description": "Low Power Universal Asynchronous Receiver/Transmitter",
+    "prmis_id": -1
+  },
+  {
+    "id": 780,
+    "name": "OCTOSPI_SDTDB",
+    "sourceName": "OCTOSPI",
+    "type": "integer",
+    "unit": null,
+    "description": "OCTO-SPI Interfaces  ",
+    "prmis_id": -1
+  },
+  {
+    "id": 781,
+    "name": "QUADSPI_SDTDB",
+    "sourceName": "QUADSPI",
+    "type": "integer",
+    "unit": null,
+    "description": "QUAD SPI Interfaces  ",
+    "prmis_id": -1
+  },
+  {
+    "id": 782,
+    "name": "SAI_SDTDB",
+    "sourceName": "SAI",
+    "type": "integer",
+    "unit": null,
+    "description": "Serial Audio Interface",
+    "prmis_id": -1
+  },
+  {
+    "id": 783,
+    "name": "SDMMC_SDTDB",
+    "sourceName": "SDMMC",
+    "type": "integer",
+    "unit": null,
+    "description": "Secure digital input/output and MultiMediaCards interface",
+    "prmis_id": -1
+  },
+  {
+    "id": 784,
+    "name": "cpnd_spitotal",
+    "sourceName": "SPI Total",
+    "type": "integer",
+    "unit": null,
+    "description": "Total number of SPI instances (SPI + USART)",
+    "prmis_id": -1
+  },
+  {
+    "id": 785,
+    "name": "UCPD_SDTDB",
+    "sourceName": "UCPD",
+    "type": "integer",
+    "unit": null,
+    "description": "USB Type C / Power Delivery",
+    "prmis_id": -1
+  },
+  {
+    "id": 786,
+    "name": "USB_DRD_FS_SDTDB",
+    "sourceName": "USB DRD_FS",
+    "type": "integer",
+    "unit": null,
+    "description": "USB dual role device",
+    "prmis_id": -1
+  },
+  {
+    "id": 787,
+    "name": "USBH_HS_SDTDB",
+    "sourceName": "USBH_HS",
+    "type": "integer",
+    "unit": null,
+    "description": "USB Host High Speed",
+    "prmis_id": -1
+  },
+  {
+    "id": 788,
+    "name": "canBuyOnLine",
+    "sourceName": "Buy On Line",
+    "type": "boolean",
+    "unit": null,
+    "description": "Buy On Line",
+    "prmis_id": 830
+  },
+  {
+    "id": 789,
+    "name": "FMPI2C_SDTDB",
+    "sourceName": "FMPI2C",
+    "type": "integer",
+    "unit": null,
+    "description": "Defines the number of Fast Mode Plus I2C Interfaces",
+    "prmis_id": -1
+  },
+  {
+    "id": 790,
+    "name": "isKitItem",
+    "sourceName": "Is kit item",
+    "type": "string",
+    "unit": null,
+    "description": "States whether this board belongs to a kit (not sold separately)",
+    "prmis_id": -1
+  },
+  {
+    "id": 791,
+    "name": "fpu",
+    "sourceName": "FPU",
+    "type": "boolean",
+    "unit": null,
+    "description": "The presence inside the MCU of an hardware dedicated floating point unit",
+    "prmis_id": 5529
+  },
+  {
+    "id": 793,
+    "name": "MXFILENAME_SDTDB",
+    "sourceName": "MXFILENAME",
+    "type": "string",
+    "unit": null,
+    "description": "name of refname.xml file",
+    "prmis_id": -1
+  },
+  {
+    "id": 794,
+    "name": "graphicAccelerator",
+    "sourceName": "Graphic accelerator",
+    "type": "multi",
+    "unit": null,
+    "description": "Defines the type of graphic accelerator that is embedded in the device.  ",
+    "prmis_id": 5047
+  },
+  {
+    "id": 795,
+    "name": "cryptography",
+    "sourceName": "Cryptography",
+    "type": "multi",
+    "unit": null,
+    "description": "Nature of the Cryptographic algorithm ( in Software or Hardware) embedded in the chip",
+    "prmis_id": 281
+  },
+  {
+    "id": 796,
+    "name": "securityFunctions",
+    "sourceName": "Security Functions",
+    "type": "multi",
+    "unit": null,
+    "description": "The security functions support by the device",
+    "prmis_id": 5535
+  },
+  {
+    "id": 797,
+    "name": "package_pitch",
+    "sourceName": "Package Pitch",
+    "type": "float",
+    "unit": "mm",
+    "description": "package pitch",
+    "prmis_id": -1
+  },
+  {
+    "id": 798,
+    "name": "compilation_order",
+    "sourceName": "Compilation Order",
+    "type": "string",
+    "unit": null,
+    "description": "order to compile project in exemple selector ",
+    "prmis_id": -1
+  },
+  {
+    "id": 799,
+    "name": "main_project",
+    "sourceName": "Main Project",
+    "type": "string",
+    "unit": null,
+    "description": "main project for dependent exmples project ",
+    "prmis_id": -1
+  },
+  {
+    "id": 800,
+    "name": "project_multi",
+    "sourceName": "Project Multi",
+    "type": "boolean",
+    "unit": null,
+    "description": "project mullti to distinct between dependent and no dependent project ",
+    "prmis_id": -1
+  },
+  {
+    "id": 801,
+    "name": "to_copy_to_user_space",
+    "sourceName": "To Copy To User Space",
+    "type": "string",
+    "unit": null,
+    "description": "file and folder  to copy to user space ",
+    "prmis_id": -1
+  },
+  {
+    "id": 803,
+    "name": "I3C",
+    "sourceName": "I3C (typ)",
+    "type": "integer",
+    "unit": null,
+    "description": "The number of I3C interfaces evolution of I2C/SPI serial one",
+    "prmis_id": 5599
+  },
+  {
+    "id": 804,
+    "name": "fpu",
+    "sourceName": "FPU",
+    "type": "multi",
+    "unit": null,
+    "description": "The presence inside the MCU of an hardware dedicated floating point unit",
+    "prmis_id": 5529
+  }
+]
