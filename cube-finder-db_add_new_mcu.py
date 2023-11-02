@@ -189,7 +189,7 @@ class Cpn(object):
             self.session.add(new_cpn)
             self.session.commit()
 
-            self.add_attrbute(item['attribute'], cpn_id)
+            self.add_attribute(item['attribute'], cpn_id)
             self.add_rpn_has_cpn(cpn_id)
 
     def get_attribute_id(self, name: str):
@@ -201,7 +201,7 @@ class Cpn(object):
         id = self.session.query(attribute).filter(attribute.name == name).first().id
         return id
 
-    def add_attrbute(self, attribute: list, cpn_id: str):
+    def add_attribute(self, attribute: list, cpn_id: str):
         """
         添加属性
         :return:
