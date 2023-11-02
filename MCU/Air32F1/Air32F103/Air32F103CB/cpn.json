@@ -67,6 +67,31 @@
                 "name": "voltageMin",
                 "strValue": "2.0",
                 "numValue": 2.0
+            },
+            {
+                "name": "packing_type",
+                "strValue": "Tray",
+                "numValue": -1
+            },
+            {
+                "name": "package_dimensions",
+                "strValue": "7x7x1.4",
+                "numValue": -1
+            },
+            {
+                "name": "package_pin_count",
+                "strValue": "48",
+                "numValue": -1
+            },
+            {
+                "name": "package_type",
+                "strValue": "LQFP",
+                "numValue": -1
+            },
+            {
+                "name": "MXFILENAME_SDTDB",
+                "strValue": "Air32F103CBTx",
+                "numValue": -1
             }
         ]
     }
