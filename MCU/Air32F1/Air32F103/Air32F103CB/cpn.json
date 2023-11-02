@@ -90,7 +90,7 @@
             },
             {
                 "name": "MXFILENAME_SDTDB",
-                "strValue": "Air32F103CBTx",
+                "strValue": "STM32Air32F103CBTx",
                 "numValue": -1
             }
         ]
