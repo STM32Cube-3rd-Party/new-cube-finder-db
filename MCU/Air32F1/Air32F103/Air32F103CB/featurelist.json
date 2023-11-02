@@ -1,0 +1,16 @@
+[
+    {
+        "name": "All packages ECOPACK<Sup>®</Sup>2 compliant",
+        "rank": 1,
+        "item": [
+            {
+                "name": "72 MHz maximum frequency,1.25 DMIPS/MHz (Dhrystone 2.1) performance at 0 wait state memory access",
+                "rank": 1
+            },
+            {
+                "name": "Single-cycle multiplication and hardware division",
+                "rank": 2
+            }
+        ]
+    }
+]
